@@ -24,7 +24,7 @@ Partial Class Login
     Private Sub InitializeComponent()
         Me.btn_reception = New System.Windows.Forms.Button()
         Me.btn_admin = New System.Windows.Forms.Button()
-        Me.txt_user = New System.Windows.Forms.TextBox()
+        Me.text_user = New System.Windows.Forms.TextBox()
         Me.text_pass = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -49,12 +49,12 @@ Partial Class Login
         Me.btn_admin.Text = "Admin Login"
         Me.btn_admin.UseVisualStyleBackColor = True
         '
-        'txt_user
+        'text_user
         '
-        Me.txt_user.Location = New System.Drawing.Point(10, 70)
-        Me.txt_user.Name = "txt_user"
-        Me.txt_user.Size = New System.Drawing.Size(272, 22)
-        Me.txt_user.TabIndex = 3
+        Me.text_user.Location = New System.Drawing.Point(10, 70)
+        Me.text_user.Name = "text_user"
+        Me.text_user.Size = New System.Drawing.Size(272, 22)
+        Me.text_user.TabIndex = 3
         '
         'text_pass
         '
@@ -101,7 +101,7 @@ Partial Class Login
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.text_pass)
-        Me.Controls.Add(Me.txt_user)
+        Me.Controls.Add(Me.text_user)
         Me.Controls.Add(Me.btn_admin)
         Me.Controls.Add(Me.btn_reception)
         Me.MaximizeBox = False
@@ -116,7 +116,7 @@ Partial Class Login
     End Sub
     Friend WithEvents btn_reception As Button
     Friend WithEvents btn_admin As Button
-    Friend WithEvents txt_user As TextBox
+    Friend WithEvents text_user As TextBox
     Friend WithEvents text_pass As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
