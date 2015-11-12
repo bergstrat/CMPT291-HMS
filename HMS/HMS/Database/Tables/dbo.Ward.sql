@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].Ward
+(
+	Name VARCHAR(50) NOT NULL PRIMARY KEY,
+	Capacity INT NOT NULL,
+	Status VARCHAR(20) NOT NULL,
+	CostPerNight INT NOT NULL,
+	Type VARCHAR(20) NOT NULL
+)
