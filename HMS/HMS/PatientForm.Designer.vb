@@ -25,40 +25,40 @@ Partial Class Form1
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.SuiteBox = New System.Windows.Forms.TextBox()
         Me.Suite = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Ptype = New System.Windows.Forms.Label()
         Me.FemaleButton = New System.Windows.Forms.RadioButton()
         Me.MaleButton = New System.Windows.Forms.RadioButton()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.EnumbBox = New System.Windows.Forms.TextBox()
         Me.Enumb = New System.Windows.Forms.Label()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.RelationshipBox = New System.Windows.Forms.TextBox()
+        Me.Relationship = New System.Windows.Forms.Label()
+        Me.EnameBox = New System.Windows.Forms.TextBox()
         Me.Ename = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.Snumb = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.PnumbBox = New System.Windows.Forms.TextBox()
         Me.Pnumb = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.ProvinceBox = New System.Windows.Forms.TextBox()
+        Me.CityBox = New System.Windows.Forms.TextBox()
         Me.Province = New System.Windows.Forms.Label()
         Me.City = New System.Windows.Forms.Label()
         Me.Country = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.PcodeBox = New System.Windows.Forms.TextBox()
         Me.Pcode = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Address = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.StreetBox = New System.Windows.Forms.TextBox()
+        Me.Street = New System.Windows.Forms.Label()
+        Me.DOB = New System.Windows.Forms.Label()
         Me.Mname = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.MnameBox = New System.Windows.Forms.TextBox()
         Me.Lname = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.LnameBox = New System.Windows.Forms.TextBox()
         Me.Fname = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.FnameBox = New System.Windows.Forms.TextBox()
+        Me.CreatePatient = New System.Windows.Forms.Button()
+        Me.CountryBox = New System.Windows.Forms.TextBox()
+        Me.Birthday = New System.Windows.Forms.DateTimePicker()
+        Me.PtypeBox = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'Label6
@@ -91,12 +91,12 @@ Partial Class Form1
         Me.Label4.TabIndex = 76
         Me.Label4.Text = "Contact Information"
         '
-        'TextBox14
+        'SuiteBox
         '
-        Me.TextBox14.Location = New System.Drawing.Point(67, 164)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(51, 20)
-        Me.TextBox14.TabIndex = 75
+        Me.SuiteBox.Location = New System.Drawing.Point(67, 164)
+        Me.SuiteBox.Name = "SuiteBox"
+        Me.SuiteBox.Size = New System.Drawing.Size(51, 20)
+        Me.SuiteBox.TabIndex = 75
         '
         'Suite
         '
@@ -148,12 +148,12 @@ Partial Class Form1
         Me.MaleButton.Text = "Male"
         Me.MaleButton.UseVisualStyleBackColor = True
         '
-        'TextBox13
+        'EnumbBox
         '
-        Me.TextBox13.Location = New System.Drawing.Point(166, 367)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(104, 20)
-        Me.TextBox13.TabIndex = 69
+        Me.EnumbBox.Location = New System.Drawing.Point(166, 367)
+        Me.EnumbBox.Name = "EnumbBox"
+        Me.EnumbBox.Size = New System.Drawing.Size(115, 20)
+        Me.EnumbBox.TabIndex = 69
         '
         'Enumb
         '
@@ -164,28 +164,28 @@ Partial Class Form1
         Me.Enumb.TabIndex = 68
         Me.Enumb.Text = "Emergency Contact Number"
         '
-        'TextBox12
+        'RelationshipBox
         '
-        Me.TextBox12.Location = New System.Drawing.Point(358, 325)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(124, 20)
-        Me.TextBox12.TabIndex = 67
+        Me.RelationshipBox.Location = New System.Drawing.Point(358, 325)
+        Me.RelationshipBox.Name = "RelationshipBox"
+        Me.RelationshipBox.Size = New System.Drawing.Size(124, 20)
+        Me.RelationshipBox.TabIndex = 67
         '
-        'Label2
+        'Relationship
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(287, 325)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(65, 13)
-        Me.Label2.TabIndex = 66
-        Me.Label2.Text = "Relationship"
+        Me.Relationship.AutoSize = True
+        Me.Relationship.Location = New System.Drawing.Point(287, 325)
+        Me.Relationship.Name = "Relationship"
+        Me.Relationship.Size = New System.Drawing.Size(65, 13)
+        Me.Relationship.TabIndex = 66
+        Me.Relationship.Text = "Relationship"
         '
-        'TextBox4
+        'EnameBox
         '
-        Me.TextBox4.Location = New System.Drawing.Point(157, 325)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(124, 20)
-        Me.TextBox4.TabIndex = 65
+        Me.EnameBox.Location = New System.Drawing.Point(157, 325)
+        Me.EnameBox.Name = "EnameBox"
+        Me.EnameBox.Size = New System.Drawing.Size(124, 20)
+        Me.EnameBox.TabIndex = 65
         '
         'Ename
         '
@@ -196,35 +196,12 @@ Partial Class Form1
         Me.Ename.TabIndex = 64
         Me.Ename.Text = "Emergency Contact Name"
         '
-        'DateTimePicker1
+        'PnumbBox
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(57, 101)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
-        Me.DateTimePicker1.TabIndex = 63
-        '
-        'TextBox11
-        '
-        Me.TextBox11.Location = New System.Drawing.Point(366, 267)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox11.TabIndex = 62
-        '
-        'Snumb
-        '
-        Me.Snumb.AutoSize = True
-        Me.Snumb.Location = New System.Drawing.Point(237, 271)
-        Me.Snumb.Name = "Snumb"
-        Me.Snumb.Size = New System.Drawing.Size(98, 13)
-        Me.Snumb.TabIndex = 61
-        Me.Snumb.Text = "Secondary Number"
-        '
-        'TextBox10
-        '
-        Me.TextBox10.Location = New System.Drawing.Point(112, 269)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(104, 20)
-        Me.TextBox10.TabIndex = 60
+        Me.PnumbBox.Location = New System.Drawing.Point(112, 269)
+        Me.PnumbBox.Name = "PnumbBox"
+        Me.PnumbBox.Size = New System.Drawing.Size(104, 20)
+        Me.PnumbBox.TabIndex = 60
         '
         'Pnumb
         '
@@ -235,19 +212,19 @@ Partial Class Form1
         Me.Pnumb.TabIndex = 59
         Me.Pnumb.Text = "Primary Number"
         '
-        'TextBox8
+        'ProvinceBox
         '
-        Me.TextBox8.Location = New System.Drawing.Point(382, 207)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(37, 20)
-        Me.TextBox8.TabIndex = 58
+        Me.ProvinceBox.Location = New System.Drawing.Point(382, 207)
+        Me.ProvinceBox.Name = "ProvinceBox"
+        Me.ProvinceBox.Size = New System.Drawing.Size(37, 20)
+        Me.ProvinceBox.TabIndex = 58
         '
-        'TextBox7
+        'CityBox
         '
-        Me.TextBox7.Location = New System.Drawing.Point(186, 207)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox7.TabIndex = 57
+        Me.CityBox.Location = New System.Drawing.Point(186, 207)
+        Me.CityBox.Name = "CityBox"
+        Me.CityBox.Size = New System.Drawing.Size(100, 20)
+        Me.CityBox.TabIndex = 57
         '
         'Province
         '
@@ -276,12 +253,12 @@ Partial Class Form1
         Me.Country.TabIndex = 54
         Me.Country.Text = "Country"
         '
-        'TextBox6
+        'PcodeBox
         '
-        Me.TextBox6.Location = New System.Drawing.Point(109, 204)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(42, 20)
-        Me.TextBox6.TabIndex = 53
+        Me.PcodeBox.Location = New System.Drawing.Point(109, 204)
+        Me.PcodeBox.Name = "PcodeBox"
+        Me.PcodeBox.Size = New System.Drawing.Size(42, 20)
+        Me.PcodeBox.TabIndex = 53
         '
         'Pcode
         '
@@ -292,30 +269,30 @@ Partial Class Form1
         Me.Pcode.TabIndex = 52
         Me.Pcode.Text = "Postal Code/Zip"
         '
-        'TextBox5
+        'StreetBox
         '
-        Me.TextBox5.Location = New System.Drawing.Point(222, 164)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(149, 20)
-        Me.TextBox5.TabIndex = 51
+        Me.StreetBox.Location = New System.Drawing.Point(222, 164)
+        Me.StreetBox.Name = "StreetBox"
+        Me.StreetBox.Size = New System.Drawing.Size(149, 20)
+        Me.StreetBox.TabIndex = 51
         '
-        'Address
+        'Street
         '
-        Me.Address.AutoSize = True
-        Me.Address.Location = New System.Drawing.Point(131, 167)
-        Me.Address.Name = "Address"
-        Me.Address.Size = New System.Drawing.Size(76, 13)
-        Me.Address.TabIndex = 50
-        Me.Address.Text = "Street Address"
+        Me.Street.AutoSize = True
+        Me.Street.Location = New System.Drawing.Point(131, 167)
+        Me.Street.Name = "Street"
+        Me.Street.Size = New System.Drawing.Size(76, 13)
+        Me.Street.TabIndex = 50
+        Me.Street.Text = "Street Address"
         '
-        'Label1
+        'DOB
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(20, 105)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(33, 13)
-        Me.Label1.TabIndex = 49
-        Me.Label1.Text = "DOB "
+        Me.DOB.AutoSize = True
+        Me.DOB.Location = New System.Drawing.Point(20, 105)
+        Me.DOB.Name = "DOB"
+        Me.DOB.Size = New System.Drawing.Size(33, 13)
+        Me.DOB.TabIndex = 49
+        Me.DOB.Text = "DOB "
         '
         'Mname
         '
@@ -326,12 +303,12 @@ Partial Class Form1
         Me.Mname.TabIndex = 48
         Me.Mname.Text = "M. Name"
         '
-        'TextBox3
+        'MnameBox
         '
-        Me.TextBox3.Location = New System.Drawing.Point(261, 71)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 47
+        Me.MnameBox.Location = New System.Drawing.Point(261, 71)
+        Me.MnameBox.Name = "MnameBox"
+        Me.MnameBox.Size = New System.Drawing.Size(100, 20)
+        Me.MnameBox.TabIndex = 47
         '
         'Lname
         '
@@ -342,12 +319,12 @@ Partial Class Form1
         Me.Lname.TabIndex = 46
         Me.Lname.Text = "Last Name"
         '
-        'TextBox2
+        'LnameBox
         '
-        Me.TextBox2.Location = New System.Drawing.Point(424, 74)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 45
+        Me.LnameBox.Location = New System.Drawing.Point(424, 74)
+        Me.LnameBox.Name = "LnameBox"
+        Me.LnameBox.Size = New System.Drawing.Size(100, 20)
+        Me.LnameBox.TabIndex = 45
         '
         'Fname
         '
@@ -358,65 +335,88 @@ Partial Class Form1
         Me.Fname.TabIndex = 44
         Me.Fname.Text = "First Name"
         '
-        'TextBox1
+        'FnameBox
         '
-        Me.TextBox1.Location = New System.Drawing.Point(101, 71)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 43
+        Me.FnameBox.Location = New System.Drawing.Point(101, 71)
+        Me.FnameBox.Name = "FnameBox"
+        Me.FnameBox.Size = New System.Drawing.Size(100, 20)
+        Me.FnameBox.TabIndex = 43
         '
-        'Button1
+        'CreatePatient
         '
-        Me.Button1.Location = New System.Drawing.Point(195, 423)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(123, 23)
-        Me.Button1.TabIndex = 42
-        Me.Button1.Text = "Create Patient Record"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.CreatePatient.Location = New System.Drawing.Point(210, 420)
+        Me.CreatePatient.Name = "CreatePatient"
+        Me.CreatePatient.Size = New System.Drawing.Size(123, 23)
+        Me.CreatePatient.TabIndex = 42
+        Me.CreatePatient.Text = "Create Patient Record"
+        Me.CreatePatient.TextAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.CreatePatient.UseVisualStyleBackColor = True
+        '
+        'CountryBox
+        '
+        Me.CountryBox.Location = New System.Drawing.Point(472, 207)
+        Me.CountryBox.Name = "CountryBox"
+        Me.CountryBox.Size = New System.Drawing.Size(52, 20)
+        Me.CountryBox.TabIndex = 79
+        '
+        'Birthday
+        '
+        Me.Birthday.Location = New System.Drawing.Point(57, 101)
+        Me.Birthday.Name = "Birthday"
+        Me.Birthday.Size = New System.Drawing.Size(200, 20)
+        Me.Birthday.TabIndex = 63
+        '
+        'PtypeBox
+        '
+        Me.PtypeBox.FormattingEnabled = True
+        Me.PtypeBox.Items.AddRange(New Object() {"In", "Out"})
+        Me.PtypeBox.Location = New System.Drawing.Point(496, 109)
+        Me.PtypeBox.Name = "PtypeBox"
+        Me.PtypeBox.Size = New System.Drawing.Size(29, 30)
+        Me.PtypeBox.TabIndex = 80
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(542, 489)
+        Me.Controls.Add(Me.PtypeBox)
+        Me.Controls.Add(Me.CountryBox)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox14)
+        Me.Controls.Add(Me.SuiteBox)
         Me.Controls.Add(Me.Suite)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Ptype)
         Me.Controls.Add(Me.FemaleButton)
         Me.Controls.Add(Me.MaleButton)
-        Me.Controls.Add(Me.TextBox13)
+        Me.Controls.Add(Me.EnumbBox)
         Me.Controls.Add(Me.Enumb)
-        Me.Controls.Add(Me.TextBox12)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.RelationshipBox)
+        Me.Controls.Add(Me.Relationship)
+        Me.Controls.Add(Me.EnameBox)
         Me.Controls.Add(Me.Ename)
-        Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.TextBox11)
-        Me.Controls.Add(Me.Snumb)
-        Me.Controls.Add(Me.TextBox10)
+        Me.Controls.Add(Me.Birthday)
+        Me.Controls.Add(Me.PnumbBox)
         Me.Controls.Add(Me.Pnumb)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.ProvinceBox)
+        Me.Controls.Add(Me.CityBox)
         Me.Controls.Add(Me.Province)
         Me.Controls.Add(Me.City)
         Me.Controls.Add(Me.Country)
-        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.PcodeBox)
         Me.Controls.Add(Me.Pcode)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.Address)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.StreetBox)
+        Me.Controls.Add(Me.Street)
+        Me.Controls.Add(Me.DOB)
         Me.Controls.Add(Me.Mname)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.MnameBox)
         Me.Controls.Add(Me.Lname)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.LnameBox)
         Me.Controls.Add(Me.Fname)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.FnameBox)
+        Me.Controls.Add(Me.CreatePatient)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -427,38 +427,38 @@ Partial Class Form1
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox14 As TextBox
+    Friend WithEvents SuiteBox As TextBox
     Friend WithEvents Suite As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Ptype As Label
     Friend WithEvents FemaleButton As RadioButton
     Friend WithEvents MaleButton As RadioButton
-    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents EnumbBox As TextBox
     Friend WithEvents Enumb As Label
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents RelationshipBox As TextBox
+    Friend WithEvents Relationship As Label
+    Friend WithEvents EnameBox As TextBox
     Friend WithEvents Ename As Label
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents Snumb As Label
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents PnumbBox As TextBox
     Friend WithEvents Pnumb As Label
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents ProvinceBox As TextBox
+    Friend WithEvents CityBox As TextBox
     Friend WithEvents Province As Label
     Friend WithEvents City As Label
     Friend WithEvents Country As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents PcodeBox As TextBox
     Friend WithEvents Pcode As Label
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents Address As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents StreetBox As TextBox
+    Friend WithEvents Street As Label
+    Friend WithEvents DOB As Label
     Friend WithEvents Mname As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents MnameBox As TextBox
     Friend WithEvents Lname As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents LnameBox As TextBox
     Friend WithEvents Fname As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents FnameBox As TextBox
+    Friend WithEvents CreatePatient As Button
+    Friend WithEvents CountryBox As TextBox
+    Friend WithEvents Birthday As DateTimePicker
+    Friend WithEvents PtypeBox As ListBox
 End Class
